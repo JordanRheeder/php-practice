@@ -5,10 +5,18 @@
         <title>Hi :)</title>
     </head>
     <body>
-        <?php
-            $characterName = "John";
-            $characterAge = "35";
-            echo "My name is $characterName and I am $characterAge years old <br>";
+
+         <form action="test.php" method="get">
+            Enter: 1-100: <input type="number" name="number">
+            <br>
+            <input type="submit">
+         </form>
+        <br>
+         <?php
+            $get = $_GET["number"];
+            $add += 2 * $get;
+            echo "$get<br>";
+            echo "$add";
          ?>
     </body>
 </html>
