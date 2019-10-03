@@ -6,7 +6,7 @@
     </head>
     <body>
         <?php
-            echo "test 123 \n123    "
+            echo "test <hr>123 \n123</hr> \t\t\t\t<h1> 1test1</h1>";
          ?>
     </body>
 </html>
