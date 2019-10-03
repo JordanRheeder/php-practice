@@ -6,7 +6,9 @@
     </head>
     <body>
         <?php
-            echo "test <hr>123 \n123</hr> \t\t\t\t<h1> 1test1</h1>";
+            $characterName = "John";
+            $characterAge = "35";
+            echo "My name is $characterName and I am $characterAge years old <br>";
          ?>
     </body>
 </html>
